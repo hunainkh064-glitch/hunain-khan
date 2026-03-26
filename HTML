@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Brand</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.tagline {
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+/* VIDEO GRID */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid white;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: white;
+  color: black;
+}
+
+/* VIDEO */
+iframe {
+  width: 100%;
+  height: 180px;
+}
+
+/* CONTACT */
+.contact a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="logo">ROMAN BRAND</div>
+  <div class="tagline">Creative Video Editing</div>
+</section>
+
+<!-- VIDEOS -->
+<section>
+  <h2>VIDEOS</h2>
+
+  <h3>Commercial</h3>
+  <div class="videos">
+    <div class="card">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID1"></iframe>
+    </div>
+  </div>
+
+  <h3>Wedding</h3>
+  <div class="videos">
+    <div class="card">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID2"></iframe>
+    </div>
+  </div>
+
+  <h3>Fashion</h3>
+  <div class="videos">
+    <div class="card">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID3"></iframe>
+    </div>
+  </div>
+
+  <h3>Documentary</h3>
+  <div class="videos">
+    <div class="card">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID4"></iframe>
+    </div>
+  </div>
+
+  <h3>Talking Head</h3>
+  <div class="videos">
+    <div class="card">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID5"></iframe>
+    </div>
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section>
+  <h2>ABOUT</h2>
+  <p>
+    Hum ek professional video editing brand hain jo cinematic aur high quality content banata hai.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>CONTACT</h2>
+  <a href="tel:+923XXXXXXXXX">Phone: +92XXXXXXXXXX</a>
+  <a href="mailto:youremail@gmail.com">Email: youremail@gmail.com</a>
+  <a href="#">Instagram</a>
+  <a href="https://wa.me/923XXXXXXXXX">WhatsApp</a>
+</section>
+
+</body>
+</html>
